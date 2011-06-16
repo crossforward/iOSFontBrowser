@@ -3,8 +3,9 @@
 //  fontchooser
 //
 //  Created by David Smith on 6/16/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 David Smith. All rights reserved.
 //
+
 
 #import "fontchooserAppDelegate.h"
 

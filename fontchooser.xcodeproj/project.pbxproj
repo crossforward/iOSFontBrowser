@@ -16,6 +16,14 @@
 		E2B0581F13AA435C0002E496 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B0581D13AA435C0002E496 /* MainWindow.xib */; };
 		E2B0582213AA435C0002E496 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B0582113AA435C0002E496 /* RootViewController.m */; };
 		E2B0582513AA435D0002E496 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B0582313AA435D0002E496 /* RootViewController.xib */; };
+		E2B0582E13AA470E0002E496 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B0582C13AA470E0002E496 /* DetailViewController.m */; };
+		E2B0582F13AA470E0002E496 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B0582D13AA470E0002E496 /* DetailViewController.xib */; };
+		E2B0583713AA4BF80002E496 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B0583113AA4BF80002E496 /* Icon-72.png */; };
+		E2B0583813AA4BF80002E496 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B0583213AA4BF80002E496 /* Icon-Small-50.png */; };
+		E2B0583913AA4BF80002E496 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B0583313AA4BF80002E496 /* Icon-Small.png */; };
+		E2B0583A13AA4BF80002E496 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B0583413AA4BF80002E496 /* Icon-Small@2x.png */; };
+		E2B0583B13AA4BF80002E496 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B0583513AA4BF80002E496 /* Icon.png */; };
+		E2B0583C13AA4BF80002E496 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B0583613AA4BF80002E496 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +31,25 @@
 		E2B0580B13AA435C0002E496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2B0580D13AA435C0002E496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2B0580F13AA435C0002E496 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E2B0581313AA435C0002E496 /* fontchooser-Info.plist */ = {isa = PBXFileReference; path = "fontchooser-Info.plist"; sourceTree = "<group>"; };
+		E2B0581313AA435C0002E496 /* fontchooser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fontchooser-Info.plist"; sourceTree = "<group>"; };
 		E2B0581513AA435C0002E496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E2B0581713AA435C0002E496 /* fontchooser-Prefix.pch */ = {isa = PBXFileReference; path = "fontchooser-Prefix.pch"; sourceTree = "<group>"; };
+		E2B0581713AA435C0002E496 /* fontchooser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fontchooser-Prefix.pch"; sourceTree = "<group>"; };
 		E2B0581813AA435C0002E496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2B0581A13AA435C0002E496 /* fontchooserAppDelegate.h */ = {isa = PBXFileReference; path = fontchooserAppDelegate.h; sourceTree = "<group>"; };
+		E2B0581A13AA435C0002E496 /* fontchooserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontchooserAppDelegate.h; sourceTree = "<group>"; };
 		E2B0581B13AA435C0002E496 /* fontchooserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fontchooserAppDelegate.m; sourceTree = "<group>"; };
 		E2B0581E13AA435C0002E496 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E2B0582013AA435C0002E496 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		E2B0582013AA435C0002E496 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E2B0582113AA435C0002E496 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E2B0582413AA435D0002E496 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		E2B0582B13AA470E0002E496 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E2B0582C13AA470E0002E496 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E2B0582D13AA470E0002E496 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		E2B0583113AA4BF80002E496 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		E2B0583213AA4BF80002E496 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		E2B0583313AA4BF80002E496 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		E2B0583413AA4BF80002E496 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		E2B0583513AA4BF80002E496 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E2B0583613AA4BF80002E496 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +96,7 @@
 		E2B0581113AA435C0002E496 /* fontchooser */ = {
 			isa = PBXGroup;
 			children = (
+				E2B0583013AA4BE90002E496 /* Icons */,
 				E2B0581A13AA435C0002E496 /* fontchooserAppDelegate.h */,
 				E2B0581B13AA435C0002E496 /* fontchooserAppDelegate.m */,
 				E2B0581D13AA435C0002E496 /* MainWindow.xib */,
@@ -86,6 +104,9 @@
 				E2B0582113AA435C0002E496 /* RootViewController.m */,
 				E2B0582313AA435D0002E496 /* RootViewController.xib */,
 				E2B0581213AA435C0002E496 /* Supporting Files */,
+				E2B0582B13AA470E0002E496 /* DetailViewController.h */,
+				E2B0582C13AA470E0002E496 /* DetailViewController.m */,
+				E2B0582D13AA470E0002E496 /* DetailViewController.xib */,
 			);
 			path = fontchooser;
 			sourceTree = "<group>";
@@ -99,6 +120,19 @@
 				E2B0581813AA435C0002E496 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2B0583013AA4BE90002E496 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E2B0583113AA4BF80002E496 /* Icon-72.png */,
+				E2B0583213AA4BF80002E496 /* Icon-Small-50.png */,
+				E2B0583313AA4BF80002E496 /* Icon-Small.png */,
+				E2B0583413AA4BF80002E496 /* Icon-Small@2x.png */,
+				E2B0583513AA4BF80002E496 /* Icon.png */,
+				E2B0583613AA4BF80002E496 /* Icon@2x.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +185,13 @@
 				E2B0581613AA435C0002E496 /* InfoPlist.strings in Resources */,
 				E2B0581F13AA435C0002E496 /* MainWindow.xib in Resources */,
 				E2B0582513AA435D0002E496 /* RootViewController.xib in Resources */,
+				E2B0582F13AA470E0002E496 /* DetailViewController.xib in Resources */,
+				E2B0583713AA4BF80002E496 /* Icon-72.png in Resources */,
+				E2B0583813AA4BF80002E496 /* Icon-Small-50.png in Resources */,
+				E2B0583913AA4BF80002E496 /* Icon-Small.png in Resources */,
+				E2B0583A13AA4BF80002E496 /* Icon-Small@2x.png in Resources */,
+				E2B0583B13AA4BF80002E496 /* Icon.png in Resources */,
+				E2B0583C13AA4BF80002E496 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +205,7 @@
 				E2B0581913AA435C0002E496 /* main.m in Sources */,
 				E2B0581C13AA435C0002E496 /* fontchooserAppDelegate.m in Sources */,
 				E2B0582213AA435C0002E496 /* RootViewController.m in Sources */,
+				E2B0582E13AA470E0002E496 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +280,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fontchooser/fontchooser-Prefix.pch";
 				INFOPLIST_FILE = "fontchooser/fontchooser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -251,7 +295,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fontchooser/fontchooser-Prefix.pch";
 				INFOPLIST_FILE = "fontchooser/fontchooser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +322,7 @@
 				E2B0582A13AA435D0002E496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
